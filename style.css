@@ -1,0 +1,229 @@
+body{
+    background-image: url(./img/Design\ sem\ nome\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "Freeman";
+    background-color: #141414;
+}
+
+.navbar-2{
+    background-color: orange;
+    margin-top: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    margin-left: 50rem;
+}
+
+.icons{
+    margin-left: 50rem;
+}
+
+.navbar-2 ion-icon{
+    font-size: 40px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.navbar-2 ion-icon:hover{
+    opacity: 1;
+}
+
+img{
+    size: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15rem;
+}
+
+ul a{
+    margin-left: 5rem;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;;
+}
+
+ul a :hover{
+    color: orange;  
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: orange;
+
+}
+
+.C-title {
+    font-family: "Roboto";
+    margin-left: 7rem;
+    margin-top: 15rem;
+}
+
+.C-title h1{
+    
+    margin: 0.1px;
+    font-size: 4rem;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid orange ;
+  outline: none;
+  transition: 1s ease-in-out;
+  border-radius: 7px;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: orange;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.title-2 h1{
+    font-size: 40px;
+    margin-top: 30rem;
+    margin-left: 40%;
+    color: #fff;
+    
+}
+.title-2 span{
+    color: orange;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.dis img{
+    border-radius: 15px;
+}
+
+.dis h3{
+    margin-left: 125px;
+    color: #fff;
+}
+
+.text-box {
+   margin-top: 1rem;
+   margin-left: 2rem;
+   display: flex;
+}
+
+.text-box p{
+    margin-left: 30px;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 150px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
